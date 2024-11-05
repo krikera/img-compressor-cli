@@ -1,0 +1,28 @@
+{
+  "name": "img-compressor-cli",
+  "version": "1.0.0",
+  "description": "Compress images for web use with quality comparison and file size savings calculation.",
+  "main": "src/index.js",
+  "bin": {
+    "img-compressor-cli": "./cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "image",
+    "compressor",
+    "optimization",
+    "performance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.32.0",
+    "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.0.0"
+  }
+}
