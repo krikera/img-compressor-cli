@@ -9,5 +9,5 @@ Contributions are welcome! Please follow these guidelines to contribute to the p
 
 2. **Clone your forked repository**:
    ```bash
-   git clone https://github.com/your-username/img-compressor-cli.git
-   cd img-compressor-cli
+   git clone https://github.com/your-username/img-compressor-com.git
+   cd img-compressor-com

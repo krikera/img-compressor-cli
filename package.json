@@ -1,10 +1,10 @@
 {
-  "name": "img-compressor-cli",
-  "version": "1.0.0",
+  "name": "img-compressor-com",
+  "version": "1.0.1",
   "description": "Compress images for web use with quality comparison and file size savings calculation.",
   "main": "src/index.js",
   "bin": {
-    "img-compressor-cli": "./cli.js"
+    "img-compressor-com": "./cli.js"
   },
   "scripts": {
     "test": "mocha"

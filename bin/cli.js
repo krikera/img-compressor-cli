@@ -9,7 +9,7 @@ const path = require('path');
 const program = new Command();
 
 program
-  .name('img-compressor-cli')
+  .name('img-compressor-com')
   .version(packageJson.version)
   .description('Compress images with options for lossy and lossless compression.');
 
