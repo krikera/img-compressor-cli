@@ -24,7 +24,7 @@ An efficient CLI and API tool for compressing images, with options for lossy and
 Install the package globally:
 
 ```bash
-npm install -g img-compressor-cli
+npm install -g img-compressor-com
 ```
 
 ### For Programmatic Use
@@ -32,7 +32,7 @@ npm install -g img-compressor-cli
 Install the package locally to use it as a library in your Node.js project:
 
 ```bash
-npm install img-compressor-cli
+npm install img-compressor-com
 ```
 
 ## CLI Usage
@@ -42,7 +42,7 @@ After installation, the CLI can be used with the following commands:
 ### Compress a Single Image
 
 ```bash
-img-compressor-cli compress <input> <output> [options]
+img-compressor-com compress <input> <output> [options]
 ```
 
 Arguments:
@@ -58,13 +58,13 @@ Options:
 
 Example:
 ```bash
-img-compressor-cli compress input.jpg output_folder/ -c webp -t lossy -l high -q 80 -p
+img-compressor-com compress input.jpg output_folder/ -c webp -t lossy -l high -q 80 -p
 ```
 
 ### Batch Compress Images
 
 ```bash
-img-compressor-cli compress-batch <input> <output> [options]
+img-compressor-com compress-batch <input> <output> [options]
 ```
 
 Arguments:
@@ -81,7 +81,7 @@ Options:
 
 Example:
 ```bash
-img-compressor-cli compress-batch input_folder output_folder -c png -t lossless -y 10 -p
+img-compressor-com compress-batch input_folder output_folder -c png -t lossless -y 10 -p
 ```
 
 ## Programmatic API Usage
