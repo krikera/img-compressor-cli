@@ -41,3 +41,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Name of the package (img-compressor-com)
+
+## [1.0.2] - 2024-11-16
+
+### Added 
+- Github links to package.json

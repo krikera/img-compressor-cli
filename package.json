@@ -1,6 +1,6 @@
 {
   "name": "img-compressor-com",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compress images for web use with quality comparison and file size savings calculation.",
   "main": "src/index.js",
   "bin": {
@@ -17,6 +17,14 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krikera/img-compressor-cli.git"
+  },
+  "homepage": "https://github.com/krikera/img-compressor-cli#readme",
+  "bugs": {
+    "url": "https://github.com/krikera/img-compressor-cli/issues"
+  },
   "dependencies": {
     "sharp": "^0.32.0",
     "commander": "^9.4.0"
