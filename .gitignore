@@ -31,6 +31,7 @@ coverage/
 *.njsproj
 *.sln
 *.sw?
+Visual Studio Code.lnk
 
 # Temporary files
 *.tmp
@@ -41,3 +42,4 @@ coverage/
 # Testing output
 coverage/
 .nyc_output/
+
