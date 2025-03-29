@@ -26,7 +26,7 @@
     "url": "https://github.com/krikera/img-compressor-cli/issues"
   },
   "dependencies": {
-    "sharp": "^0.32.0",
+    "sharp": "^0.33.0",
     "commander": "^9.4.0"
   },
   "devDependencies": {
