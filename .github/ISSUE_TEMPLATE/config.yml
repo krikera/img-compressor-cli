@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/krikera/img-compressor-cli/discussions
+    about: Ask questions or start discussions about the project
+  - name: Documentation
+    url: https://github.com/krikera/img-compressor-cli#readme
+    about: Read the documentation and usage examples
+

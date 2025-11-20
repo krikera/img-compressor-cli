@@ -1,21 +1,36 @@
 {
   "name": "img-compressor-com",
-  "version": "1.0.2",
-  "description": "Compress images for web use with quality comparison and file size savings calculation.",
+  "version": "2.0.0",
+  "description": "Image compression tool with AVIF, WebP, GIF, SVG support, mozjpeg integration, resize/crop, and visual quality comparison.",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "bin": {
-    "img-compressor-com": "./cli.js"
+    "img-compressor-com": "./bin/cli.js"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "image",
     "compressor",
     "optimization",
-    "performance"
+    "performance",
+    "cli",
+    "image-compression",
+    "webp",
+    "avif",
+    "jpeg",
+    "png",
+    "gif",
+    "svg",
+    "mozjpeg",
+    "batch-processing",
+    "sharp",
+    "resize",
+    "crop"
   ],
-  "author": "",
+  "author": "Krishna",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -25,12 +40,29 @@
   "bugs": {
     "url": "https://github.com/krikera/img-compressor-cli/issues"
   },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "src/",
+    "src/lib/",
+    "bin/",
+    "readme.md",
+    "license",
+    "changelog.md"
+  ],
   "dependencies": {
-    "sharp": "^0.32.0",
-    "commander": "^9.4.0"
+    "sharp": "^0.33.5",
+    "commander": "^12.1.0",
+    "imagemin": "^8.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "svgo": "^3.3.2",
+    "glob": "^10.3.10"
   },
   "devDependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.0.0"
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2"
   }
 }

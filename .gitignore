@@ -1,5 +1,14 @@
-# Node modules
+# Dependencies
 node_modules/
+package-lock.json
+
+# Test outputs
+test/output/
+test/assets/batch/
+*.test-output
+examples/test-output/
+examples/output/
+test-all-features.js
 
 # Logs
 logs/
@@ -7,39 +16,45 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+lerna-debug.log*
 
-# OS-specific files
+# OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Environment files
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Environment variables
 .env
 .env.local
 .env.*.local
 
-# Build output
+# Build outputs
 dist/
 build/
-coverage/
+*.tgz
 
-# IDE or Editor-specific files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-Visual Studio Code.lnk
-
-# Temporary files
-*.tmp
-*.temp
-*.cache
-*.bak
-
-# Testing output
+# Coverage
 coverage/
 .nyc_output/
 
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Generated previews (from tests/examples)
+previews/
